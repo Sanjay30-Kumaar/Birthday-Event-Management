@@ -1,0 +1,141 @@
+.con-sec1 h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: x-large;
+    margin-left: 14%;
+    margin-right: 5%;
+    color: #362c4e;
+    text-shadow: 1px 2px #858585;
+    width: 120%;
+    /* border: 2px solid black; */
+    margin-top: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.con-sec1{
+    display: flex;
+}
+
+.con-sec1 img{
+    width: 60%;
+    height:110%;
+    margin-left: 35%;
+    border: 4px solid black;
+
+}
+
+.con-sec1-right{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.right-con{
+    position: absolute;
+    color: #362c4e;
+    text-shadow: 1px 2px #858585;
+    left: 20%;
+    top:40%;
+    font-size: 50px;
+    padding-left: 200px;
+    padding-right: 70px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.right-con p{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bolder;
+}
+
+.con-sec1-left form{
+    margin-left: 200px;
+    padding-left: 10px;
+
+}
+
+.con-input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+
+.con-input-box input::placeholder {
+    color: black;
+}
+
+.con-sec1-left .con-input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-radius: 18px;
+    background: transparent;
+    margin: 30px 0;
+}
+
+.con-sec1-left button{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: black;
+    padding: 20px 45px 69px 20px;
+}
+
+.con-input-box textarea::placeholder {
+    color: black;
+}
+
+
+
+/*  */
+
+@media (max-width: 768px) {
+    .con-sec1 {
+      flex-direction: column;
+    }
+  
+    .con-sec1-left,
+    .con-sec1-right {
+      flex: 1;
+    }
+  
+    .con-sec1-right {
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .con-sec1-left,
+    .con-sec1-right {
+      padding: 10px;
+    }
+  }

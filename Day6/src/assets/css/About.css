@@ -1,0 +1,144 @@
+.section1 img{
+  width: 50%;
+  height: 120%;
+  margin-left: 40px;
+  border: 4px solid black;
+  margin-left: 30%;
+  
+}
+
+.abt h1{
+  text-align: center;
+    font-weight: 500;
+    font-size: xx-large;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #362c4e;
+    text-shadow: 1px 2px #858585;
+}
+
+ .about-right-sec1{
+  margin-right: 1px;
+  padding-right: 20px;
+  margin-right: 10%;
+  flex-grow: 1;
+  font-size: large;
+  width: 250%;
+  padding-top: 5%;
+  font-weight: 300;
+
+}
+.about-right-sec1 p {
+  margin-right: 2%;
+  padding-right: 5px;
+  justify-content: center;
+  padding-left: 20px;
+  margin-left: 10%;
+}
+.about-right-sec1 h1{
+  padding-left: 10px;
+}
+.section1{
+  display: flex;
+  
+}
+.section2{
+  display: flex;
+  margin-top: 150px;
+}
+
+.section2 img{
+  width: 25%;
+  height: 150%;
+  margin-right: 20px;
+  border: 4px solid black;
+  margin-right: 10%;
+  
+}
+.about-left-sec2{
+  padding-left: 15%;
+  margin-right: 100px;
+  padding-right: 15%;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+
+.about-left-sec2 p{
+  justify-content: center;
+
+}
+
+.section3{
+  display: flex;
+  margin-left: 10%;
+}
+.about-left-sec3 img{
+  width:60%;
+  height:100%;
+  margin-top: 30px;
+  margin-left: 20%;
+  border: 4px solid black;
+}
+
+.about-right-sec3{
+  padding-right: 5%;
+  width: 250%;
+  margin-right: 10%;
+  margin-top: 80px;
+  height: 100%;
+  padding-left: 10%;
+
+}
+
+.about-right-sec3 ul{
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 4px solid black;
+  list-style: none;
+  width: 70%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #655c7a;
+  color: white;
+  font-size: large;
+  margin-left: 15%;
+  
+}
+
+.about-right-sec3 p5{
+  font-size: large;
+  justify-content: center;
+}
+
+/*  */
+
+@media (max-width: 768px) {
+  .abt {
+    padding: 10px;
+  }
+
+  .section1,
+  .section2,
+  .section3 {
+    flex-direction: column;
+  }
+
+  .about-left,
+  .about-right-sec1,
+  .about-left-sec2,
+  .about-right-sec2,
+  .about-left-sec3,
+  .about-right-sec3 {
+    width: 100%;
+  }
+
+  .about-right-sec2 img {
+    margin-top: 20px;
+  }
+
+  p4,
+  p5 {
+    text-align: justify;
+  }
+}

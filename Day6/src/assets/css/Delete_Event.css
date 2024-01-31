@@ -1,0 +1,57 @@
+/* deleteEvent.css */
+
+.delete-event-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .back-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-link i {
+    margin-right: 5px;
+  }
+  
+  .event-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .event-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 82%;
+    transform: translateX(-50%);
+  }
+  
+  .delete-button:hover {
+    background-color: lightgray;
+  }
+  

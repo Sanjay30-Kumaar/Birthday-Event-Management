@@ -1,0 +1,71 @@
+
+
+body {
+    background-color: #f4f4f4;
+    
+  }
+  
+  .feed-con {
+    max-width: 550px;
+    height:300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feed-con h2 {
+    color: #362c4e;
+    text-shadow: 1px 2px #858585;
+    text-align: center;
+  }
+  
+  .feed-con form {
+    margin-top: 20px;
+  }
+  
+  .feed-con label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 600;
+
+  }
+  
+  .feed-con textarea {
+    width: 100%;
+    padding: 8px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    resize: vertical;
+  }
+  
+  .feed-con button {
+    
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #fff;
+    
+  }
+  
+  .feed-con button:hover {
+    background-color: #655c7a;
+  }
+
+  /*  */
+
+  @media screen and (max-width: 768px) {
+    .feed-con {
+      max-width: 100%;
+      margin: 10px;
+      box-shadow: none;
+    }
+  }
+  
